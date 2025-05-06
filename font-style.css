@@ -1,11 +1,11 @@
 @font-face {
-    font-family: 'MyCustomFont';
-    src: url('https://raw.githubusercontent.com/Azyz25/salla/main/alfont_com_AlFont_com_OoredooArabic-Heavy.ttf') format('truetype');
+    font-family: 'Ooredoo';
+    src: url('https://raw.githubusercontent.com/Azyz25/salla/main/Ooredoo.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
   }
   
   body {
-    font-family: 'MyCustomFont', sans-serif;
+    font-family: 'Ooredoo', sans-serif;
   }
   
