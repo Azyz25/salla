@@ -84,7 +84,7 @@ footer.store-footer {
 }
 
 span.text-sm.copyright-text {
-  visibility: hidden;
+  display: none;
 }
 
 salla-social.mb-6.s-social-list.hydrated {
@@ -136,6 +136,7 @@ salla-slider.details-slider .s-slider-container {
 
 .md\:flex.items-center.justify-between.py-4.container.text-center {
   background: #595832;
+  justify-content: center;
 }
 
 
