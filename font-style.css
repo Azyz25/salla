@@ -1,17 +1,17 @@
 @font-face {
-    font-family: 'Tajawal';
-    src: url('Tajawal.ttf') format('truetype');
+    font-family: 'OoredooArabic';
+    src: url('OoredooArabic.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
   }
 
   * {
-    font-family: 'Tajawal' !important;
+    font-family: 'OoredooArabic' !important;
   }
   
   
   body {
-    font-family: 'Tajawal', sans-serif;
+    font-family: 'OoredooArabic', sans-serif;
   }
 
   .s-block--features__item {
@@ -205,4 +205,37 @@ section.sticky-product-bar.bg-white.p-5.rounded-md.rounded-b-none {
 
 .flex.items-stretch.justify-between.relative {
   height: 70px;
+}
+
+custom-salla-product-card {
+  border-radius: 25px !important;
+}
+
+.s-product-card-image {
+  border-radius: 25px !important;
+}
+
+/* للمتصفحات اللي تدعم WebKit (كروم، سفاري، إيدج الجديد) */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #dad5c5; /* خلفية المسار */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #575932; /* لون الزر */
+  border-radius: 10px;
+  border: 2px solid #dad5c5; /* عشان يدمج بالمسار */
+}
+
+.top-navbar {
+  border-radius: 25px;
+  margin: 8px;
+  background: #595832 !important;
+}
+
+input.s-search-input::placeholder {
+  color: white;
 }
