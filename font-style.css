@@ -17,4 +17,76 @@
   .s-block--features__item {
     border-radius: 25px !important;
 }
+
+.s-reviews-testimonial {
+  border-radius: 25px !important;
+}
+
+body {
+  --tw-bg-opacity: 1;
+  background-color: rgb(230 226 214);
+}
+
+.inner.bg-inherit {
+  border-radius: 25px !important;
+}
+
+div#mainnav {
+  margin: 8px;
+  border-radius: 25px !important;
+}
+
+.object-contain {
+  -o-object-fit: contain;
+  object-fit: contain;
+  border-radius: 25px !important;
+}
+
+.s-products-list-placeholder span {
+  margin-bottom: 1rem;
+  display: flex;
+  height: 8rem;
+  width: 8rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255);
+  font-size: 3rem;
+  line-height: 1;
+  --tw-text-opacity: 1;
+}
+
+.s-products-list-placeholder span svg {
+  margin-left: auto;
+  margin-right: auto;
+  height: 4rem;
+  width: 4rem;
+  fill: #585832;
+  text-align: center;
+}
+
+.s-products-list-placeholder p {
+  padding-top: 0.5rem;
+  text-align: center;
+  --tw-text-opacity: 1;
+  color: rgba(156, 163, 175, 1);
+  color: rgb(88 88 50);
+}
+
+.store-footer__inner {
+  border-radius: 25px 25px 0px 0px;
+}
+
+footer.store-footer {
+  border-radius: 25px 25px 0 0;
+}
+
+span.text-sm.copyright-text {
+  visibility: hidden;
+}
+
+salla-social.mb-6.s-social-list.hydrated {
+  margin-top: 12px;
+}
   
