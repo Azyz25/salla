@@ -1,17 +1,17 @@
 @font-face {
-    font-family: 'OoredooArabic';
-    src: url('OoredooArabic.ttf') format('truetype');
+    font-family: 'Tajawal';
+    src: url('Tajawal.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
   }
 
   * {
-    font-family: 'OoredooArabic' !important;
+    font-family: 'Tajawal' !important;
   }
   
   
   body {
-    font-family: 'OoredooArabic', sans-serif;
+    font-family: 'Tajawal', sans-serif;
   }
 
   .s-block--features__item {
