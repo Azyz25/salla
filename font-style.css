@@ -239,3 +239,7 @@ custom-salla-product-card {
 input.s-search-input::placeholder {
   color: white;
 }
+
+.content.content--single-page.w-full.lg\:w-10\/12.bg-white.rounded.p-6.lg\:p-8.mt-4.lg\:mt-12 {
+  border-radius: 25px;
+}
