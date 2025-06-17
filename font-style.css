@@ -248,3 +248,7 @@ input.s-search-input::placeholder {
 .flex.items-stretch.justify-between.relative {
   height: 80px;
 }
+
+.top-navbar {
+    display: none !important;
+}
