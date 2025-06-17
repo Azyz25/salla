@@ -22,6 +22,19 @@ text-align: center;
 }
 
 
-*top-navbar {
+body .top-navbar,
+html body .top-navbar,
+body .top-navbar.header-top,
+body .top-navbar:not(.sticky)
+{
+    all: unset;
+    display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    overflow: hidden !important;
+}
+
+
+.top-navbar {
     display: none !important;
 }
